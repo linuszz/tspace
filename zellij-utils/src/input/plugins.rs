@@ -70,6 +70,7 @@ impl PluginConfig {
                     || tag == "layout-manager"
                     || tag == "link"
                     || tag == "mobile"
+                    || tag == "tspace-menu"
                 {
                     Some(PluginConfig {
                         path: PathBuf::from(&tag),

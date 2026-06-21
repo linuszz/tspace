@@ -92,6 +92,10 @@ fn workspace_members() -> &'static Vec<WorkspaceMember> {
                 build: true,
             },
             WorkspaceMember {
+                crate_name: "default-plugins/tspace-menu",
+                build: true,
+            },
+            WorkspaceMember {
                 crate_name: "zellij-utils",
                 build: false,
             },

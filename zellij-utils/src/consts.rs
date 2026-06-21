@@ -172,6 +172,7 @@ mod not_wasm {
             add_plugin!(assets, "layout-manager.wasm");
             add_plugin!(assets, "link.wasm");
             add_plugin!(assets, "mobile.wasm");
+            add_plugin!(assets, "tspace-menu.wasm");
             assets
         };
     }
