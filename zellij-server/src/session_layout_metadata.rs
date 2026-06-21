@@ -185,6 +185,9 @@ impl SessionLayoutMetadata {
             if location_string == "zellij:share" {
                 return true;
             }
+            if location_string == "zellij:tspace-menu" {
+                return true;
+            }
         }
         false
     }
