@@ -1,0 +1,11 @@
+[package]
+name = "tspace-menu"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+zellij-tile = { path = "../../zellij-tile" }
+ratatui = { version = "0.30.2", default-features = false, features = ["std"] }
+fuzzy-matcher = "0.3.7"
+unicode-width = "0.1.10"
