@@ -266,6 +266,18 @@ Config {
                 ),
                 initial_cwd: None,
             },
+            "tspace-menu": RunPlugin {
+                _allow_exec_host_cmd: false,
+                location: Zellij(
+                    PluginTag(
+                        "tspace-menu",
+                    ),
+                ),
+                configuration: PluginUserConfiguration(
+                    {},
+                ),
+                initial_cwd: None,
+            },
             "welcome-screen": RunPlugin {
                 _allow_exec_host_cmd: false,
                 location: Zellij(

@@ -163,6 +163,13 @@ keybinds clear-defaults=true {
         bind "Alt l" { MoveFocusOrTab "right"; }
         bind "Alt n" { NewPane; }
         bind "Alt o" { MoveTab "right"; }
+        bind "Ctrl Shift p" {
+            LaunchOrFocusPlugin "tspace-menu" {
+                floating true
+                move_to_focused_tab true
+            }
+            SwitchToMode "normal"
+        }
         bind "Alt p" { TogglePaneInGroup; }
         bind "Alt Shift p" { ToggleGroupMarking; }
         bind "Ctrl q" { Quit; }
@@ -267,6 +274,7 @@ plugins {
     status-bar location="zellij:status-bar"
     strider location="zellij:strider"
     tab-bar location="zellij:tab-bar"
+    tspace-menu location="zellij:tspace-menu"
     welcome-screen location="zellij:session-manager" {
         welcome_screen true
     }
@@ -277,3 +285,4 @@ load_plugins {
 web_client {
     font "monospace"
 }
+
