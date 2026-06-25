@@ -126,11 +126,6 @@ This fork tracks [zellij-org/zellij](https://github.com/zellij-org/zellij) `main
 
 No zellij core logic was modified. Upstream merges should be conflict-free outside of snapshot files.
 
-## Origin of the Name
-[From Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/Zellij)
-
-Zellij (Arabic: الزليج, romanized: zillīj; also spelled zillij or zellige) is a style of mosaic tilework made from individually hand-chiseled tile pieces. The pieces were typically of different colours and fitted together to form various patterns on the basis of tessellations, most notably elaborate Islamic geometric motifs such as radiating star patterns composed of various polygons. This form of Islamic art is one of the main characteristics of architecture in the western Islamic world. It is found in the architecture of Morocco, the architecture of Algeria, early Islamic sites in Tunisia, and in the historic monuments of al-Andalus (in the Iberian Peninsula).
-
 ## License
 
 MIT
